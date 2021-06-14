@@ -20,7 +20,7 @@
   position: relative;
   top: 20px;
 }
-.tall.striped > stripe{  
+.tall.striped > .stripe{  
   top: 40px;
 }
 .striped > .stripe{
