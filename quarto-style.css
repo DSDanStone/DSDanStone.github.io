@@ -1,0 +1,28 @@
+.piece{
+  width:50px;
+  border: gray 2px solid;
+  background: white;
+  height: 50px;  
+}
+.black{
+  background: black;
+}
+.tall{
+  height: 100px;
+}
+.rounded{
+  border-radius: 25px;
+}
+.stripe{
+  display: none;
+  background: gray;
+  height: 10px;
+  position: relative;
+  top: 20px;
+}
+.tall.striped > stripe{  
+  top: 40px;
+}
+.striped > .stripe{
+  display: block;
+}
