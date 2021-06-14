@@ -10,7 +10,7 @@
 .tall{
   height: 100px;
 }
-.rounded{
+.round{
   border-radius: 25px;
 }
 .stripe{
@@ -21,7 +21,7 @@
   top: 20px;
 }
 .tall.striped > .stripe{  
-  top: 40px;
+  top: 45px;
 }
 .striped > .stripe{
   display: block;
